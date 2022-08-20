@@ -26,7 +26,7 @@ function onlyOneOperation() {
   var result = document.getElementById('result').innerHTML;
   var operation = document.getElementsByClassName('.operation');
 
-  if (result.length == operation && result.length - 1 == operation) {
-    result.length - 1 == "";
+  if (result.substring(result.length) == operation.substring(result.length) && result.substring(result.length - 1) == operation.substring(result.length - 1)) {
+    back();
   }
 }
