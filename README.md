@@ -1,4 +1,4 @@
-# Day 5 of 21 Days of Code Challenge
+# Day 4 of 21 Days of Code Challenge
 
 ## Indexes
 
